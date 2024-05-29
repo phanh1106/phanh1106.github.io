@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm mới truyện</title>
+</head>
+<body>
+    <h1 style="text-align: center;font-weight: 200;text-transform: uppercase;color: black;">
+        Thêm mới truyện
+    </h1>
+    <form action="/admin.bai_viet_them_moi_thuc_hien.html" method="post">
+        <input name="txtTieuDeTruyen" type="text" placeholder="Tên truyện" style="width: 100%;">
+        <textarea name="txtMoTaTruyen" placeholder="Mô tả truyện" rows="5" style="width: 100%;"></textarea>
+        <p>Ảnh minh họa: <input type="file" name="txtAnh"></p>
+        <textarea name="txtNoiDungTruyen" placeholder="Nội dung truyện" rows="10" style="width: 100%;"></textarea>
+        <input type="submit" value="Thêm mới">
+        <input type="reset" value="Reset">
+    </form>
+    <p style="text-align: right; font-weight: bold;">
+        <a href="/index.html">Trang chủ</a> |
+        <a href="/web_truyen/quan_tri_truyen.html">Quản trị</a>
+    </p>
+</body>
+</html>
