@@ -4,6 +4,14 @@ body{
     margin: 0 auto;
     width: 1024px;
 }
+h2 {
+    color: black; /* Màu chữ */
+    font-size: 24px; /* Kích thước chữ */
+    font-weight: bold; /* Độ đậm của chữ */
+    text-align: center; /* Căn giữa chữ */
+    margin-top: 20px; /* Khoảng cách bên trên */
+    margin-bottom: 20px; /* Khoảng cách bên dưới */
+  }
 a:link{
     text-decoration: none;
     color: black;
@@ -57,3 +65,42 @@ nav #selected{
     background-color: #ddd;
     color: black;
 }
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: pink;
+    color: #fff;
+    padding: 20px ;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 5px; 
+    width: 5px; 
+    height: 10px;
+    text-decoration: none;
+    border-radius: 50%; 
+    background-color: pink; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: rgb(248, 132, 152); /* Màu nền khi hover */
+    color: #d4d4d4; /* Màu icon khi hover */
+}
+.lienhe{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
